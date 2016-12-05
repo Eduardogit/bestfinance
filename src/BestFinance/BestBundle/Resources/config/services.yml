@@ -1,0 +1,4 @@
+services:
+#    best_finance_best.example:
+#        class: BestFinance\BestBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,3 @@
+best_finance_best_homepage:
+    path:     /
+    defaults: { _controller: BestFinanceBestBundle:Contact:index }

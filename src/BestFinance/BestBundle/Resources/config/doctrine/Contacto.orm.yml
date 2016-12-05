@@ -1,0 +1,31 @@
+BestFinance\BestBundle\Entity\Contacto:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nombre:
+            type: string
+            length: 255
+        telefono:
+            type: string
+            length: '50'
+        correo:
+            type: string
+            length: 255
+        estado:
+            type: string
+            length: 255
+        descripcion:
+            type: string
+            length: 255
+        status:
+            type: string
+            length: '2'
+        fechaRegistro:
+            type: datetime
+    lifecycleCallbacks: {  }
