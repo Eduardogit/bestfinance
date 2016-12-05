@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.8/css/tether.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
         <link rel="stylesheet" href="{{asset('public/main.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 
@@ -114,11 +115,10 @@
                             <div id="myNavbar">
                                 <ul id="navbar-nav" class="myNavbarUl nav navbar-nav navbar-right slideOutRight">
                                     <li><a href="#header">Home</a></li>
-                                    <li><a href="#section-1">About</a></li>
-                                    <li><a href="#section-3">Scedule</a></li>
-                                    <li><a href="#section-5">Price</a></li>
-                                    <li><a href="#section-11">Venue</a></li> 
-                                    <li><a href="blog.html" class="blog">Blog</a></li> 
+                                    <li><a href="#section-1">Configurador</a></li>
+                                    <li><a href="#section-2">Servicios</a></li>
+                                    <li><a href="#section-3">Ayuda</a></li>
+                                    <li><a href="#section-11">Contacto</a></li> 
                                 </ul>
                             </div>
                         </div> <!-- End: container  -->
@@ -213,19 +213,23 @@
                     <!-- Start: Our Featured Speaker Right -->
     				<div class="our-featured-speaker-right col-md-12 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
                      <h2 class="text-center"> Nuestros servicios</h2>
+                     <br>
     				</div>
                     <div class="col-md-12 col-md-offset-1">
 
                         <div class="col-md-3 servicios">
                             <img class="servicios-img center-block img-responsive" src="{{asset('public/logo/serv.png')}}" alt="">
+                            <p class="texto-grande text-center"> Prestamos al consumo </p>
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ut quasi explicabo doloremque dolor voluptas pariatur delectus obcaecati odit, est excepturi ea magnam quis commodi odio tempore, quia quam vero.</p>
                         </div>
                         <div class="col-md-3 servicios">
                             <img class="servicios-img center-block img-responsive" src="{{asset('public/logo/serv.png')}}" alt="">
+                            <p class="texto-grande text-center"> Prestamos personales</p>
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsam provident eveniet dolorum. Amet voluptas cum dolore tempore impedit repellendus cupiditate. Voluptate repudiandae sint quos ducimus, enim deserunt facere ullam.</p>
                         </div>
                         <div class="col-md-3 servicios">
                             <img class="servicios-img center-block img-responsive" src="{{asset('public/logo/serv.png')}}" alt="">
+                            <p class="texto-grande text-center"> Prestamos hipotecarios</p>
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sequi aperiam, dicta quos aut nulla corrupti earum, ipsa praesentium, vero asperiores! Doloremque minima amet laudantium est ut rem debitis saepe.</p>
                         </div>
                     </div>
@@ -245,229 +249,19 @@
 
                         <div role="tabpanel">
 
-                            <!-- Nav tabs -->
-                            <ul class="scedule-main col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8 nav wow fadeInDown animated" data-wow-offset="10" data-wow-duration="1.5s" role="tablist">
-                                <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4 active">
-                                    <a class="btn-border btn-standard btn btn-cus" href="#scedule-1" aria-controls="scedule-1" role="tab" data-toggle="tab">First Day</a>
-                                </li>
-                                <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4">
-                                    <a class="btn-border btn-standard btn btn-cus" href="#scedule-2" aria-controls="scedule-2" role="tab" data-toggle="tab">Second Day</a>
-                                </li>
-                                <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4">
-                                    <a class="btn-border btn-standard btn btn-cus" href="#scedule-3" aria-controls="scedule-3" role="tab" data-toggle="tab">Third Day</a>
-                                </li>
-                            </ul>
-
+                       
                             <div class="clearfix visible-xs visible-sm"></div>
 
-                            <!-- Tab panes -->
-                            <div class="tab-content col-md-12">
-                                <div role="tabpanel" class="tab-pane active wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-1">
-
-                                    <div class="dropdown">
-                                        <span id="btn-scedule-1" data-id="#nav-ul-scedule-1" class="btn-scedule-css hidden-md hidden-lg label"></span>
-
-
-                                        <!-- Nav tabs -->
-                                        <ul class="nav nav-cus col-md-4" role="tablist"  id="nav-ul-scedule-1">
-                                            <li role="presentation" class="active">
-                                                <a href="#scedule-sub-1" aria-controls="scedule-sub-1" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Welcome &amp; Registration</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-2" aria-controls="scedule-sub-2" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Improving Wordpress</span>
-                                                    <span class="nav-time">11:30am - 1pm</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-3" aria-controls="scedule-sub-3" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Dance With Code</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-4" aria-controls="scedule-sub-4" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Less Motivation</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Tab panes -->
-                                    <div class="tab-content col-md-8">
-                                        <div role="tabpanel" class="tab-pane active wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-1">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-2">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et accumsan et iusto odior tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-3">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-4">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div role="tabpanel" class="tab-pane wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-2">
-
-                                    <div class="dropdown">
-                                        <span id="btn-scedule-2" data-id="#nav-ul-scedule-2" class="btn-scedule-css hidden-md label hidden-lg"></span>
-
-
-                                        <!-- Nav tabs -->
-                                        <ul class="nav nav-cus col-md-4" role="tablist"  id="nav-ul-scedule-2">
-                                            <li role="presentation" class="active">
-                                                <a href="#scedule-sub-5" aria-controls="scedule-sub-1" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Welcome &amp; Registration</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-6" aria-controls="scedule-sub-2" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Improving Wordpress</span>
-                                                    <span class="nav-time">11:30am - 1pm</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-7" aria-controls="scedule-sub-3" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Dance With Code</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-8" aria-controls="scedule-sub-4" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Less Motivation</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Tab panes -->
-                                    <div class="tab-content col-md-8">
-                                        <div role="tabpanel" class="tab-pane active wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-5">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-6">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-7">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting..</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-8">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div role="tabpanel" class="tab-pane wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-3">
-
-                                    <div class="dropdown">
-                                        <span id="btn-scedule-3" data-id="#nav-ul-scedule-3" class="btn-scedule-css hidden-md hidden-lg label"></span>
-
-
-                                        <!-- Nav tabs -->
-                                        <ul class="nav nav-cus col-md-4" role="tablist"  id="nav-ul-scedule-3">
-                                            <li role="presentation" class="active">
-                                                <a href="#scedule-sub-9" aria-controls="scedule-sub-1" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Welcome &amp; Registration</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-10" aria-controls="scedule-sub-2" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Improving Wordpress</span>
-                                                    <span class="nav-time">11:30am - 1pm</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-11" aria-controls="scedule-sub-3" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Dance With Code</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-12" aria-controls="scedule-sub-4" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Less Motivation</span>
-                                                    <span class="nav-time">09:30am - 11:30am</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Tab panes -->
-                                    <div class="tab-content col-md-8">
-                                        <div role="tabpanel" class="tab-pane active wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-9">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-10">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-11">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-12">
-
-                                            <h3>It is a long established fact that a reader will be distracted by the readable contents on the webpages.</h3>
-                                            <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div><!-- End: tabpanel  -->
+                        <h1 class="ayuda"><b>Ayuda</h1>
+                        <div class="col-md-12">
+                            <p class="texto-grande">Preguntas frecuentes</p>
+                            <ul class="preguntas">
+                                <li>1.¿Como obtener un prestamo? <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum laborum fugiat molestias et debitis, suscipit nulla voluptas aut ducimus pariatur excepturi ullam culpa vero eius quis quia nihil eligendi repudiandae.</p></li>
+                                <li>2.¿Pregunta sobre servicio? <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati earum, voluptatibus ad optio quo similique cupiditate reprehenderit ex deserunt nobis iure doloremque necessitatibus, laudantium qui officia consectetur enim, sed tempora?</p></li>
+                                <li>3.¿Quien puede aplicar a los prestamos? <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet voluptas quibusdam excepturi quas et sunt dolor necessitatibus recusandae nisi, illo, ex sequi explicabo magnam quo modi tempora cumque voluptatum temporibus.</p></li>
+                                <li>4.¿Quien responde a mi solicitud? <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dignissimos consectetur sequi accusamus. Quae, error, hic. Quibusdam assumenda beatae minus optio atque, illo quod, qui officiis, similique ipsum, fugiat labore.</p></li>
+                            </ul>
+                        </div>
 
                     </div><!-- End: our-futured-speaker-body   -->
                 </div> <!-- End: container   -->
@@ -476,462 +270,15 @@
 
 
 
+   
+
+
+ 
+
+
+  
+
     
-
-        <section class="pricing-tables" id="section-5"> <!-- Start: Pricing Table Area, "SECTION-5" -->
-            <div class="container">
-                <div class="row pricing-tables-body">
-                    
-                    <!-- Start: Pricing Table Left  -->
-                    <div class="pricing-tables-left col-xs-12 col-sm-8 col-md-8">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                                    <h3>Just choose a package and join our conference to know about our community more, Its really enjoyable.</h3>
-                                </div>
-
-                                <!-- Nav tabs -->
-                                <ul class="scedule-main nav wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s" role="tablist">
-                                    <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4 active">
-                                        <a class="btn-border btn-standard btn btn-cus" href="#pricing-table-1" aria-controls="pricing-table-1" role="tab" data-toggle="tab">Silver</a>
-                                    </li>
-                                    <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4">
-                                        <a class="btn-border btn-standard btn btn-cus" href="#pricing-table-2" aria-controls="pricing-table-2" role="tab" data-toggle="tab">Gold</a>
-                                    </li>
-                                    <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4">
-                                        <a class="btn-border btn-standard btn btn-cus" href="#pricing-table-3" aria-controls="pricing-table-3" role="tab" data-toggle="tab">Platinum</a>
-                                    </li>
-                                </ul>
-                                <div class="wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-                                    <p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et accumsan et iusto odior tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
-
-                                    <p class="hidden-xs hidden-sm">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inpi non habent clarita tem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lect</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End: Pricing Table Left  -->
-
-                    <!-- Start: Pricing Table Right  -->
-                    <!-- Pricing Table - 1 -->
-                    <div class="tab-content pricing-tables-right col-xs-12 col-sm-4 col-md-4">
-                        <div role="tabpanel" class="tab-pane active" id="pricing-table-1">
-
-                                <div class="wow fadeInDown animated" data-wow-delay="0.5s">
-                                    <div class="table-single">
-
-                                        <p>
-                                            <span class="currency">$</span>
-                                            <span class="rate">100</span> <br/> 
-                                            <span class="period">Silver</span>
-                                        </p>
-
-                                        <ul>
-                                            <li>Seat On The Row</li>
-                                            <li>Coffee With Spon Sugar</li>
-                                            <li>Colorful Certificate</li>
-                                            <li>Chicken Grill With Nann Rooti</li>
-                                            <li>Business Class Flight Ticket</li>
-                                            <li>Startup Review</li>
-                                        </ul>
-
-                                        <div class="btn-group  btn-scroll">
-                                            <a href="#header" class="btn-fill btn-standard btn btn-cus">Register Now</a>
-                                        </div>
-
-                                    </div> <!-- End: .table-single -->
-                                </div> <!--  -->
-
-                        </div>
-
-                        <!-- Pricing Table - 2 -->
-                        <div class="tab-pane" id="pricing-table-2">
-
-                                <div class="wow fadeInDown animated" data-wow-delay="0.5s">
-                                    <div class="table-single">
-        
-                                        <p>
-                                            <span class="currency">$</span>
-                                            <span class="rate">200</span> <br/> 
-                                            <span class="period">Silver</span>
-                                        </p>
-                                        <ul>
-                                            <li>Seat On The Row</li>
-                                            <li>Coffee With Spon Sugar</li>
-                                            <li>Colorful Certificate</li>
-                                            <li>Chicken Grill With Nann Rooti</li>
-                                            <li>Business Class Flight Ticket</li>
-                                            <li>Startup Review</li>
-                                        </ul>
-
-                                        <div class="btn-group btn-scroll">
-                                            <a href="#header" class="btn-fill btn-standard btn btn-cus">Register Now</a>
-                                        </div>
-
-                                    </div> <!-- End: .table-single -->
-                                </div> <!--  -->
-
-                        </div>
-
-                        <!-- Pricing Table - 3 -->
-                        <div role="tabpane3" class="tab-pane" id="pricing-table-3">
-                        
-                                <div class="wow fadeInDown animated" data-wow-delay="0.5s">
-                                    <div class="table-single">
-                                        <p>
-                                            <span class="currency">$</span>
-                                            <span class="rate">300</span> <br/> 
-                                            <span class="period">Silver</span>
-                                        </p>
-
-                                        <ul>
-                                            <li>Seat On The Row</li>
-                                            <li>Coffee With Spon Sugar</li>
-                                            <li>Colorful Certificate</li>
-                                            <li>Chicken Grill With Nann Rooti</li>
-                                            <li>Business Class Flight Ticket</li>
-                                            <li>Startup Review</li>
-                                        </ul>
-
-                                        <div class="btn-group btn-scroll">
-                                            <a href="#header" class="btn-fill btn-standard btn btn-cus">Register Now</a>
-                                        </div>
-
-                                    </div> <!-- End: .table-single -->
-                                </div> <!--  -->
-
-                        </div>
-
-                    </div><!-- Start: Pricing Table Right  -->
-                </div><!-- End: .pricing-table-body  -->
-            </div> <!-- End: .container  -->
-        </section> <!-- End: .Pricing .Table Area, "#SECTION-5" -->
-
-
-
-        <section class="countdown-background countdown" id="section-6"> <!-- Start: Register Area, "#SECTION-6" -->
-            <div class="overlay-color">
-                <div class="container">
-                    <div class="row countdown-body">
-                        
-                        <!-- Register Area Tetle Goes Here  -->
-                        <div class="col-sm-12 wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <h2>WE ARE ALMOST THERE</h2>
-                        </div>
-
-                        <!-- CountDown Goes Here  -->
-                        <div class="col-sm-12 wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-
-                            <!-- Start: CountDown area -->
-                            <div class="count_down">
-                            </div>
-                            <!-- End: CountDown area -->
-
-                        </div><!-- End: .col-sm-12  -->
-                        
-                    </div><!-- End: .register-body -->
-                </div><!-- End: .container -->
-            </div> <!-- End: .overlay-color -->
-        </section> <!-- End: Register Area, "#SECTION-6" -->
-
-
-
-        <section class="sponsore" id="section-7" ><!-- Start: Sponsore Area, "#SECTION-7" -->
-            <div class="container">
-                <div class="row sponsore-body col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 "><!-- Start: Sponsore Body Area -->
-                    
-                    <div class="wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <h2>OUR SPONSORS</h2><!-- Sponsore Heading Goes Here -->
-                    </div>
-                    
-                    <!-- Start: Images Area -->
-                    <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-						<div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-							<img src="{{asset('public/all-file/images/sponsors-img/1.png')}}" alt="Sponsors" class="img-responsive">
-						</div>
-						<div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-							<img src="{{asset('public/all-file/images/sponsors-img/2.png')}}" alt="Sponsors" class="img-responsive">
-						</div>
-						<div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-							<img src="{{asset('public/all-file/images/sponsors-img/3.png')}}" alt="Sponsors" class="img-responsive">
-						</div>
-						<div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-							<img src="{{asset('public/all-file/images/sponsors-img/4.png')}}" alt="Sponsors" class="img-responsive">
-						</div>
-                        <div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-                            <img src="{{asset('public/all-file/images/sponsors-img/4.png')}}" alt="Sponsors" class="img-responsive">
-                        </div>
-                        <div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-                            <img src="{{asset('public/all-file/images/sponsors-img/3.png')}}" alt="Sponsors" class="img-responsive">
-                        </div>
-                        <div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-                            <img src="{{asset('public/all-file/images/sponsors-img/2.png')}}" alt="Sponsors" class="img-responsive">
-                        </div>
-                        <div class="sponsors-logo col-lg-3 com-md-3 col-sm-3 col-xs-6">
-                            <img src="{{asset('public/all-file/images/sponsors-img/1.png')}}" alt="Sponsors" class="img-responsive">
-                        </div>
-                    </div><!-- End: Images Area -->
-
-
-                </div><!-- Start: Sponsore Body Area -->
-            </div><!-- End: .container  -->
-        </section><!-- End: Sponsore Area, "#SECTION-7" -->
-
-
-
-        <section class="collapse-area" id="section-8"> <!-- Start: Collapse Area, "#SECTION-8" -->
-            <div class="container">
-                <div class="row">
-
-                    <!--  Start: Collapse Area Left   -->
-                    <div class="collapse-left col-sm-12 col-md-4 col-lg-4 hidden-xs hidden-sm wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <img src="{{asset('public/all-file/images/collapse.jpg')}}" alt="" class="">
-                    </div>
-                    <!--  End: Collapse Area Left  -->
-
-
-                    <!-- Start: Collapse Area Right  -->
-                    <div class="collapse-right col-sm-12 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
-
-                        <h2 class="wow fadeInDown animated" data-wow-offset="10" data-wow-duration="1.5s">Freaquently Asked Question</h2><!-- Collapse Title Goes Here  -->
-                        
-                        <!--  Start: Collapse-tab  -->
-                        <div class="collapse-tab ">
-                            <div class="panel-group" id="accordion">
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s" id="panel1"><!-- Start: Tab-1 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-1 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
-                                                What if I need to cancel my booking at late notice?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse in">
-
-                                        <!-- Tab-1 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et accumsan et iusto odior
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-1 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s" id="panel2"><!-- Start: Tab-2 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-1 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
-                                                Which payment methods do you accept?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
-
-                                        <!-- Tab-2 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-2 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s" id="panel3"><!-- Start: Tab-3 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-3 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
-                                                I'd like to buy 5 tickets, is there bulk pricing?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse">
-
-                                        <!-- Tab-3 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-3 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s" id="panel4"><!-- Start: Tab-4 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-4 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
-                                                What if I need to cancel my booking at late notice?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFour" class="panel-collapse collapse">
-
-                                        <!-- Tab-4 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-4 -->
-                                
-                            </div> <!-- End: .panel-group  -->
-                        </div><!--  End: .collapse-tab  -->
-
-                    </div>
-                    <!-- End: Collapse Area Right  -->
-
-
-                </div> <!-- End: .row  -->
-            </div> <!-- End: .container  -->
-        </section> <!-- End: Collapse Area, "#SECTION-8" -->
-
-
-
-        <section class="scedule testimonial" id="section-9"> <!-- End: Testimonial Area, "#SECTION-9" -->
-            <div class="container">
-                <div class="testimonial-body scedule-body ">
-                    
-                    <div role="tabpanel" class="tab-pane active wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="testimonial-1">
-
-                        <div class="dropdown">
-                            <span id="btn-testimonial" data-id="#nav-ul-testimonial" class="btn-scedule-css hidden-md hidden-lg label"></span>
-
-
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-cus col-md-4" role="tablist"  id="nav-ul-testimonial">
-                                <li role="presentation" class="active">
-                                    <a href="#nav-testimonial-1" aria-controls="nav-testimonial-1" role="tab" data-toggle="tab">
-                                        <span class="nav-header">Jennifer Doe</span>
-                                        <span class="nav-time">09:30am - 11:30am</span>
-                                    </a>
-                                </li>
-                                <li role="presentation" class="">
-                                    <a href="#nav-testimonial-2" aria-controls="nav-testimonial-2" role="tab" data-toggle="tab">
-                                        <span class="nav-header">Mitrel Lord</span>
-                                        <span class="nav-time">11:30am - 1pm</span>
-                                    </a>
-                                </li>
-                                <li role="presentation" class="">
-                                    <a href="#nav-testimonial-3" aria-controls="nav-testimonial-3" role="tab" data-toggle="tab">
-                                        <span class="nav-header">Kulsum Doe</span>
-                                        <span class="nav-time">09:30am - 11:30am</span>
-                                    </a>
-                                </li>
-                                <li role="presentation" class="">
-                                    <a href="#nav-testimonial-4" aria-controls="nav-testimonial-4" role="tab" data-toggle="tab">
-                                        <span class="nav-header">David Jones</span>
-                                        <span class="nav-time">09:30am - 11:30am</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content col-md-8">
-                            <div role="tabpanel" class="tab-pane active fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="nav-testimonial-1">
-
-                                <img src="{{asset('public/all-file/images/testimonial-1.jpg')}}" alt="" class="testimonial-img img-circle">
-                                <p>Amet landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp exhibition vero eros et landing page et expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                <h3>Jennifer Doe</h3>
-                                <p>Creative Director of DeviserWeb</p>
-
-                            </div>
-                            <div role="tabpanel" class="tab-pane fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="nav-testimonial-2">
-
-                                <img src="{{asset('public/all-file/images/testimonial-1.jpg')}}" alt="" class="testimonial-img img-circle">
-                                <p>Amet landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp exhibition vero eros et landing page et expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                <h3>Mitrel Lord</h3>
-                                <p>Creative Director of DeviserWeb</p>
-
-                            </div>
-                            <div role="tabpanel" class="tab-pane fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="nav-testimonial-3">
-
-                                <img src="{{asset('public/all-file/images/testimonial-1.jpg')}}" alt="" class="testimonial-img img-circle">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
-                                <h3>Kulsum Doe</h3>
-                                <p>Creative Director of DeviserWeb</p>
-
-                            </div>
-                            <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="nav-testimonial-4">
-
-                                <img src="{{asset('public/all-file/images/testimonial-2.jpg')}}" alt="" class="testimonial-img img-circle">
-                                <p>Lorem ipsum event dolor sit amet, landing page consectetuer seminar elit, sed event nonummy nibh euismod community ut laoreet dolore magna convention erat volutpat. Conference wisi enim ad minim webinar, quis nostrud meetup tation ullamcorp eu feugiat nulla exhibition vero eros et landing page et iusto odior expo cum summit eleifend event congue nihil imperdiet meeting.</p>
-                                <h3>David Jones</h3>
-                                <p>Creative Director of DeviserWeb</p>
-
-                            </div>
-                        </div>
-
-                    </div><!--  End: .tabpanel  -->
-                               
-                </div> <!-- End: .testimonial-body .scedule-body  -->
-            </div> <!-- End: .container  -->
-        </section> <!-- End: Testimonial Area, "#SECTION-9" -->
-
-
-
-        <section class="twitter-background twitter-posts" id="section-10"> <!-- End: Twitter Posts Area, "#SECTION-10" -->
-            <div class="fix overlay-color">
-                <div class="container">
-
-                    <div class="row twitter-posts-body col-md-offset-1 col-md-10 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        
-                        <!-- Twitter Logo goes Here  -->
-                        <div class="twitter-logo">
-                            <i class="fa twitter fa-twitter"></i>
-                        </div>
-                        
-                        <!--  Start: Slider  -->
-                        <div id="sync" class="owl-carousel">
-            
-                            <!-- TESTIMONIAL TEXT - CLIENT'S MSG -->
-                            <div class="item row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <h3>Support forum is up and running <a href="http://deviserweb.com" target="_blank">@DeviserWeb</a>  just export all content to a .variant file and import it into your purchased version. Instructions in download. Hope to help you soon :)</h3>
-                                </div> <!-- /.col-md-8 col-md-offset-2 -->
-                            </div>
-
-                            <div class="item row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <h3>Support forum is up and running <a href="http://deviserweb.com" target="_blank">@DeviserWeb</a>  just export all content to a .variant file and import it into your purchased version. Instructions in download. Hope to help you soon :)</h3>
-                                </div> <!-- /.col-md-8 col-md-offset-2 -->
-                            </div>
-
-                            <div class="item row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <h3>Support forum is up and running <a href="http://deviserweb.com" target="_blank">@DeviserWeb</a>  just export all content to a .variant file and import it into your purchased version. Instructions in download. Hope to help you soon :)</h3>
-                                </div> <!-- /.col-md-8 col-md-offset-2 -->
-                            </div>
-
-                            <div class="item row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <h3>Support forum is up and running <a href="http://deviserweb.com" target="_blank">@DeviserWeb</a>  just export all content to a .variant file and import it into your purchased version. Instructions in download. Hope to help you soon :)</h3>
-                                </div> <!-- /.col-md-8 col-md-offset-2 -->
-                            </div>
-                             <!-- /END TESTIMONIAL TEXT - CLIENT'S MSG -->
-
-                        </div>
-                        <!--  End: Slider  -->
-                        
-                        <!--  Link  -->
-                        <p>Abour 4 Hours ago from <a href="http://deviserweb.com" target="_blank">@DeviserWeb</a> Twitter via Twitter</p>
-
-                    </div> <!-- End: .row .twitter-posts-body .col-md-offset-1 .col-md-10  -->
-
-                </div> <!-- End: .contaimer  -->
-            </div> <!-- End: .overlay-color  -->
-        </section> <!-- End: Twitter Posts Area, "#SECTION-10" -->
-
 
         <section class="contact-us" id="section-11"> <!-- Start: Contact Us Area, "#SECTION-11" -->
         	<div class="container">
@@ -939,14 +286,14 @@
 
         			<div class="contact-us-left col-md-4 wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
 
-        				<h2>Venue info</h2>
-        				<p><span class="bold">Address:</span> Eventer, one caspian point, pierhead street cardiff waterside, cf10 4dq</p>
-        				<p><span class="bold">Contact: </span><a href="callto:+8801777272322">+880 177 727 2322</a></p>
-        				<p><span class="bold">Mail: </span><a href="mailto:as@deviserweb.com">as@deviserweb.com</a></p>
+        				<h2>Contacto!</h2>
+        				<p><span class="bold">Direccion:</span> Eventer, one caspian point, pierhead street cardiff waterside, cf10 4dq</p>
+        				<p><span class="bold">Contacto: </span><a href="callto:+8801777272322">+880 177 727 2322</a></p>
+        				<p><span class="bold">Correo: </span><a href="mailto:as@deviserweb.com">as@deviserweb.com</a></p>
         				
                         <!-- Social Icon Goes Here  -->
                         <div class="social-icon">
-        					<p><span class="bold">Find Us On</span></p>
+        					<p><span class="bold">Encuentranos en</span></p>
         					<ul class="nav navbar-left">
         						<li><a href="#"> <i class="fa facebook fa-facebook"></i> </a></li>
                                 <li><a href="#"> <i class="fa twitter fa-twitter"></i> </a></li>
@@ -961,9 +308,7 @@
 					<!-- Start: Google Map Area, "Part-1-Up" "map" -->
         			<div class="contact-us-right col-md-offset-1 col-md-7 wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
                         <div class="row">
-                            <div class="map" id="map">
-                                
-                            </div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.4142398800327!2d-99.17658868509392!3d19.394499986905966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff7194b4882b%3A0xf6a4fe1dff24335c!2sWorld+Trade+Center+Cdad.+de+M%C3%A9xico%2C+N%C3%A1poles%2C+03810+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1480910133000" width="650" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
         			</div>
         			<!-- End: Google Map Area, "map" -->
@@ -974,13 +319,13 @@
 
 
 
-        <footer class="footer"> <!-- Start: Footer Area  -->
+        <footer  class="footer"> <!-- Start: Footer Area  -->
         	<div class="container">
         		<div class="row footer-body btn-scroll">
                     
                     <!-- Your Icon Goes Here  -->
 					<div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<a href="#" ><img src="{{asset('public/all-file/images/logo.png')}}" alt="" class="img-responsive"></a>
+						<a href="#" ><img src="{{asset('public/logo/quimera.png')}}" style="width:50px" alt="" class="img-responsive"></a>
 					</div>
                     
                     <!--  Scroll Top  -->
@@ -1021,46 +366,7 @@
         ==========================================-->
         <script src="{{asset('public/demo-style/js/main.js')}}"></script>
 
-        <script type="text/javascript">
-            $(document).ready(customizer.init({
-                layout: {
-                    title: 'LAYOUT STYLE:',
-                    options: [
-                        ['light', '../../../light/image-bg/style-3/index.html', 'LIGHT'],
-                        ['dark', '../../../dark/image-bg/style-3/index.html', 'DARK', true]
-                    ]
-                },
-                homepage: {
-                    title: 'HOMEPAGE STYLE:',
-                    options: [
-                        ['image-bg', '../../image-bg/style-3/index.html', 'IMAGE BG', true],
-                        ['video-bg', '../../video-bg/style-3/index.html', 'VIDEO BG'],
-                        ['gradient-image-bg', '../../gradient-image-bg/style-3/index.html', 'GRADIENT IMAGE BG'],
-                        ['gradient-video-bg', '../../gradient-video-bg/style-3/index.html', 'GRADIENT VIDEO BG'],
-                        ['transparent-color-image-bg', '../../transparent-color-image-bg/style-3/index.html', 'TRANSPARENT IMAGE BG'],
-                        ['transparent-color-video-bg', '../../transparent-color-image-bg/style-3/index.html', 'TRANSPARENT VIDEO BG'],
-                        ['solid-bg', '../../solid-bg/style-3/index.html', 'SOLID BG'],
-                    ]
-                },
-                style: {
-                    title: 'STYLE:',
-                    options: [
-                        ['style-1', '../style-1/index.html', 'STYLE 1'],
-                        ['style-2', '../style-2/index.html', 'STYLE 2'],
-                        ['style-3', '../style-3/index.html', 'STYLE 3', true]
-                    ]
-                },
-                colors: {
-                    title: 'COLORS:',
-                    options: [
-                        ['red', 'css/colors/blue.css', '', true],
-                        ['purple', 'css/colors/purple.css', ''],
-                        ['blue', 'css/colors/blue.css', ''],
-                        ['lime', 'css/colors/lime.css', '']
-                    ]
-                }
-            }, '{{asset("public/demo-style/css/main.css")}}'));
-        </script>
+
     
     </body>
 
